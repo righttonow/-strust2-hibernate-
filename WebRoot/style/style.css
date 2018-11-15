@@ -1,0 +1,141 @@
+body{
+	background-color:#29e7d9;
+}
+.loginbox{
+position:absolute;
+background-color:#80ffff;
+top:100px;
+left:25%;
+right:25%;
+width:50%;
+height:500px;
+padding:0px;
+}
+.fielderror{
+	position:absolute;
+	left:75%;
+	top:38%;
+	font-size:1.5em;
+	margin:0px;
+	color:red;
+}
+.registerBox{
+position:absolute;
+background-color:#80ffff;
+top:100px;
+left:25%;
+right:25%;
+width:50%;
+height:500px;
+padding:0px;
+}
+.registerBox h1{
+	position:absolute;
+	background-color:transparent;
+	top:50px;
+	left:30%;
+	margin:0 auto;
+	width:40%;
+	color:#000000;
+	font-weight:600;
+}
+.loginbox p{
+	background-color:transparent;
+	position:absolute;
+	font-size:1.7em;
+	left:15%;
+	right:60%;
+	width:30%;
+}
+.loginbox h1{
+	position:absolute;
+	background-color:transparent;
+	top:10%;
+	left:30%;
+	margin:0 auto;
+	width:40%;
+	color:#000000;
+	font-weight:600;
+}
+.button{
+	background-color:transparent;
+	border:solid;
+	border-width:1px;
+	border-color:gray;
+	position:absolute;
+	font-size:1.4em;
+	width:80px;
+	height:40px;
+	top:65%;
+}
+
+h1 {background-color: #80ffff}
+h2 {background-color: transparent}
+p {background-color: rgb(250,0,255)}
+p.no2 {background-color: gray; padding: 20px;}
+
+a:link {color:#808080;}    /* 未被访问的链接 */
+a:visited {color:#808080;} /* 已被访问的链接 */
+a:hover {color:#ff0080;}   /* 鼠标指针移动到链接上 */
+a:active {color:#ff0080;}  /* 正在被点击的链接 */
+.login{
+	background-color:transparent;
+	position:relative;
+	left:30%;
+	top:110px;
+	width:40%;
+	right:30%;
+	height:300px;
+	border-width:1px;
+	border-style:solid;
+	
+}
+div.login p{
+	background-color:transparent;
+	width:160px;
+	font-size:1.5em;
+	position:relative;
+	top:80px;
+	left:50px;
+}
+.textfield{
+	text-color:red；
+	position:absolute;
+	bottom:70%;
+	left:40%;
+	width:30%;
+	height:35px;
+	margn:0px;
+	font-size:1.2em;
+}
+.actionmessage{
+	position:absolute;
+	top:4%;
+	font-weight:600;
+	font-size:1.5em;
+	color:#ff0080;
+	left:35%;
+}
+
+div.registerBox p{
+	background-color:transparent;
+	width:40%;
+	top:90px;
+	font-size:1.4em;
+	position:relative;
+	left:50px;
+}
+.registerText{
+	position:absolute;
+	left:330px;
+	width:30%;
+	height:27px;
+	margin:8px;
+	font-size:1.2em;
+}
+.radio{
+position:relative;
+left:330px;
+top:-60px;
+font-size:1.5em;
+}

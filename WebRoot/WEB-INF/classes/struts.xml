@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ <constant name="struts.devMode" value="true" />
+ <package name="student" extends="struts-default" namespace="/">
+		<action name="loginAction" class="action.StudentAction" method="loginAction">
+			<result name="success">index.jsp</result>
+			<result name="error">login.jsp</result>
+			<result name="input">login.jsp</result>
+		</action>
+		<action name="saveRegister" class="action.StudentAction" method="saveRegister">
+			<result name="success">login.jsp</result>
+			<result name="error">register.jsp</result>
+			<result name="input">register.jsp</result>
+		</action>
+		<action name="loginoff" class="action.StudentAction" method="loginoff">
+			<result name="success">login.jsp</result>
+			<result name="error">login.jsp</result>
+			<result name="input">login.jsp</result>
+		</action>
+		<action name="Addcart" class="action.BookAction"  method="Addcart">
+			<result name="success">index.jsp</result>
+			<result name="error">index.jsp</result>
+			<result name="input">index.jsp</result>
+		</action>
+		<action name="deleteCart" class="action.BookAction"  method="deletecart">
+			<result name="success">cart.jsp</result>
+			<result name="error">cart.jsp</result>
+			<result name="input">cart.jsp</result>
+		</action>
+		<action name="carts" class="action.BookAction" method="carts">
+			<result name="success">cart.jsp</result>
+			<result name="error">cart.jsp</result>
+			<result name="input">cart.jsp</result>
+		</action>
+			<action name="recharge" class="action.StudentAction" method="recharge">
+			<result name="success">index.jsp</result>
+			<result name="error">index.jsp</result>
+			<result name="input">index.jsp</result>
+		</action>
+		<action name="payaction" class="action.BookAction"  method="Order">
+			<result name="success">cart.jsp</result>
+			<result name="error">cart.jsp</result>
+			<result name="input">cart.jsp</result>
+		</action>
+			<action name="ShowOrder" class="action.BookAction"  method="OrderList">
+			<result name="success">OrderList.jsp</result>
+			<result name="error">OrderList.jsp</result>
+			<result name="input">OrderList.jsp</result>
+		</action>	
+	</package>
+	<package name="admin" extends="struts-default" namespace="/">
+		<action name="adminloginAction" class="action.AdminAction" method="loginAction">
+			<result name="success">AdminMain.jsp</result>
+			<result name="error">Adminlogin.jsp</result>
+			<result name="input">Adminlogin.jsp</result>
+		</action>
+			<action name="AdminAddBook" class="action.AdminAction" method="AddBook">
+			<result name="success">AdminAddBookSuccess.jsp</result>
+			<result name="error">AdminAddBook.jsp</result>
+			<result name="input">AdminAddBook.jsp</result>
+		</action>
+			<action name="AdminUpdateandSaveBook" class="action.AdminAction" method="UpdateBook">
+			<result name="success">AdminUpdateBookSuccess.jsp</result>
+			<result name="error">AdminUpdateBook.jsp</result>
+			<result name="input">AdminUpdateBook.jsp</result>
+		</action>
+			<action name="deleteBook" class="action.AdminAction" method="deleteBook">
+			<result name="success">AdminBooklist.jsp</result>
+			<result name="error">AdminBooklist.jsp</result>
+			<result name="input">AdminBooklist.jsp</result>
+		</action>
+		<action name="getAllBook" class="action.AdminAction" method="FindAllBook">
+			<result name="success">AdminBooklist.jsp</result>
+			<result name="error">AdminBooklist.jsp</result>
+			<result name="input">AdminBooklist.jsp</result>
+		</action>
+		<action name="getAllStudent" class="action.AdminAction" method="getAllStudent">
+			<result name="success">AdminShowCustomerlist.jsp</result>
+			<result name="error">AdminShowCustomerlist.jsp</result>
+			<result name="input">AdminShowCustomerlist.jsp</result>
+		</action>
+		</package>
+</struts>    

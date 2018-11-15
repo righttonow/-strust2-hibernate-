@@ -1,0 +1,158 @@
+a:link {color:#808080;text-decoration:none;}    /* 未被访问的链接 */
+a:visited {color:#808080;text-decoration:none;} /* 已被访问的链接 */
+a:hover {color:#ff0080;text-decoration:none;}   /* 鼠标指针移动到链接上 */
+a:active {color:#ff0080;text-decoration:none;}  /* 正在被点击的链接 */
+body{
+	background-color:#29e7d9;
+}
+.OrderTable{
+	position:absolute;
+	width:100%;
+	font-size:1.3em;
+}
+.BookList{
+	position:absolute;
+	width:80%;
+	top:80%;
+	right:20%;
+	height:90%
+	
+}
+.OneBook{
+	float:left;
+	background-color:#efffc4;
+	position:relative;
+	width:150px;
+	height:250px;
+	margin:1%;
+}
+
+.OneBook img{
+	position:absolute;
+	top:3%;
+	left:5%;
+	right:5%;
+	width:90%;
+	height:65%;
+}
+.BookIns{
+	position:absolute;
+	left:5%;
+	width:95%;
+	height:35%;
+	top:70%;
+	font-size:0.8em;
+}
+.AddCartButton{
+	position:absolute;
+	left:0%;
+	right:10%;
+	width:100%;
+	top:68%;
+	height:5%;
+	font-size:1.1em;
+}
+.price{
+	color:red;
+	position:absolute;
+	left:0%;
+	right:10%;
+	width:80%;
+	top:47%;
+	height:5%;
+	font-size:1em;
+}
+.BookListBox{
+	background-color:#fbc188;
+	position:absolute;
+	width:80%;
+	top:20%;
+	left:10%;
+	right:10%;
+	height:200%;
+}
+.PageTitle{
+	background-color:transparent;
+	position:absolute;
+	height:10%;
+	top:0%;
+	width:20%;
+	height:100%;
+	margin:0%;
+}
+.PageMessage{
+	background-color:transparent;
+	font-weight:600;
+	font-size:1.5em;
+	color:#ff0080;
+	position:absolute;
+	height:10%;
+	top:5%;
+	left:30%;
+	margin:0%;
+}
+.MainBox{
+background-color:#80ffff;
+position:absolute;
+left:10%;
+right:10%;
+width:80%;
+top:0%;
+height:100%;
+}
+.MainLabelBox{
+	position:absolute;
+	font-size:2em;
+	background-color:#a6b748;
+	top:0%;
+	width:100%;
+	height:15%;
+}
+.MainLabelBox h1{
+	color:#8080ff;
+	position:absolute;
+	left:20%;
+	top:10%;
+	margin:0px;
+}
+.MenuLabel{
+	background-color:#c2edbe;
+	position:absolute;
+	top:15%;
+	width:100%;
+	height:5%;
+	border:solid;
+	border-width:1px;
+	padding:0px;
+}
+.MenuLabel p{
+	color:green;
+	font-size:1.1em;
+	font-weight:400;
+	position:absolute;
+	top:10%;
+	margin:0;
+}
+.LoginMenu{
+	position:absolute;
+	width:100%;
+	font-size:1.3em;
+	top:20%;
+}
+.UserDoBox{
+background-color:#fbc188;
+position:absolute;
+left:10%;
+right:10%;
+width:80%;
+top:20%;
+height:80%;
+}
+
+.UserShowBox{
+	position:absolute;
+	width:80%;
+	top:10%;
+	left:20%;
+	height:90%
+	}

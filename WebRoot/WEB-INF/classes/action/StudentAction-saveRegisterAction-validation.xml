@@ -1,0 +1,43 @@
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.2//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.2.dtd">
+<validators>
+      <field name="sid">
+	<field-validator type="requiredstring">
+	       <param name="trim">true</param>
+	       <message>学号不能为空！</message>  
+	       </field-validator>
+      </field>
+      <field name="spassword">
+      <field-validator type="requiredstring">
+      <param name="trim">true</param>
+      <message>密码不能为空！</message>
+      </field-validator>
+      <field-validator type="stringlength">
+      <param name="maxLength">20</param>
+      <param name="minLength">3</param>
+      <message>密码应该在3~20之间！</message>
+      </field-validator>
+      <field-validator type="fieldexpression">
+       <param name="expression">password.equals(spassword)</param>
+       <message>两次输入的密码不一致！</message>
+       </field-validator>
+      </field>
+      <field name="sname">
+      <field-validator type="requiredstring">
+      <param name="trim">true</param>
+      <message>姓名不能为空！</message>
+      </field-validator>
+      <field-validator type="stringlength">
+      <param name="maxLength">20</param>
+      <message>姓名长度不能超过20！</message>
+      </field-validator>
+      </field>
+      <field name="grade">
+	  <field-validator type="int">
+	   <param name="trim">true</param>
+	   <message>年级不能为空！</message>
+  </field-validator>
+ </field>
+</validators>
+

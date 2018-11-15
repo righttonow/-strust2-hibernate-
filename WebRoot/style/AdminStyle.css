@@ -1,0 +1,133 @@
+a:link {color:#808080;}    /* 未被访问的链接 */
+a:visited {color:#808080;} /* 已被访问的链接 */
+a:hover {color:#ff0080;}   /* 鼠标指针移动到链接上 */
+a:active {color:#ff0080;}  /* 正在被点击的链接 */
+body{
+	background-color:#29e7d9;
+}
+.adminBox{
+	background-color:#80ffff;
+	position:absolute;
+	left:10%;
+	right:10%;
+	top:0%;
+	height:100%;
+	width:80%;
+}
+.mainLabel{
+	background-color:#808000;
+	position:absolute;
+	color:#00ff40;
+	height:20%;
+	width:100%;
+} 
+.mainLabel h1{
+	background-color:transparent;
+	position:absolute;
+	font-size:3.5em;
+	left:20%;
+	
+}
+.adminMenu{
+	 position:absolute;
+	 width:19%;
+	 top:20%;
+	 background-color:#f5e098;
+	 height:80%;
+}
+.adminMenu h1{
+	background-color:transparent;
+}
+.AdminDoBox{
+	 position:absolute;
+	 background-color:transparent;
+	 width:65%;
+	 top:20%;
+	 height:80%;
+	 margin:0px;
+	 left:25%;
+}
+
+.AdminDoBox h1{
+	background-color:gray;
+	 position:absolute;
+	 width:100%;
+	 top:0%;
+	 left:0%;
+	 height:50px;
+	 margin:0px;
+	 padding:0px;
+}
+.label{
+	position:absolute;
+	left:330px;
+	width:30%;
+	height:27px;
+	margin:8px;
+	font-size:1.2em;
+}
+.P{
+	background-color:transparent;
+	font-weight:600;
+	width:40%;
+	font-size:1.4em;
+	position:relative;
+	left:15%;
+}
+.AddBookButton{
+	background-color:transparent;
+	border:solid;
+	border-width:1px;
+	border-color:gray;
+	position:absolute;
+	font-size:1.4em;
+	width:80px;
+	height:40px;
+	top:89%;
+	left:53%;
+}
+.UpdateBookButton{
+	background-color:transparent;
+	border:solid;
+	border-width:1px;
+	border-color:gray;
+	position:absolute;
+	font-size:1.4em;
+	width:120px;
+	height:40px;
+	top:87%;
+	left:65%;
+}
+.textfield{
+	position:absolute;
+	left:28%;
+	width:15%;
+	height:20px;
+}
+.Table{
+	position:absolute;
+	left:0%;
+	top:20%;
+	width:100%;
+	border-style:solid;
+	border-width:1px;
+}
+.actionMessage{
+	position:absolute;
+	left:10%;
+	top:30px;
+	width:80%;
+	font-weight:600;
+	font-size:1.5em;
+	color:#ff0080;
+}
+.test{
+	position:absolute;
+	width:100%;
+	height:11%;
+	background-color:yellow;
+	top:9%;
+	left:0%;
+	 margin:0px;
+	 padding:0px;
+}
